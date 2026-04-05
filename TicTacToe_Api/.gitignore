@@ -1,0 +1,9 @@
+.vs
+TicTacToe_Api/bin
+/TicTacToe_Api/obj
+*.user
+*.suo
+*.cache
+*.log
+*.vspscc
+*.vssscc
