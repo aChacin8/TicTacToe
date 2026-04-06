@@ -31,5 +31,4 @@ El sistema utiliza una arquitectura **Cliente-Servidor**:
 * **CORS:** Configurado en el `Program.cs` del backend para permitir la comunicación con el frontend.
 * **Heurística:** La Máquina evalúa el tablero en tiempo real para decidir entre atacar o defender.
 
----
-**Desarrollado por:** Alejandro Chacin
+
