@@ -15,13 +15,13 @@ El sistema utiliza una arquitectura **Cliente-Servidor**:
 * Node.js 
 
 ### Pasos para el Backend (API)
-1. Navega a la carpeta del proyecto backend: `cd tic-tac-toe/TicTacToe_Api/TicTacToe_Api`.
+1. Navega a la carpeta del proyecto backend: `cd TicTacToe/TicTacToe_Api/TicTacToe_Api`.
 2. Restaura las dependencias: `dotnet restore`.
 3. Ejecuta la API: `dotnet run`.
 4. La API estará disponible en `http://localhost:5000` o `http://localhost:5173`.
 
 ### Pasos para el Frontend (React)
-1. Navega a la carpeta del frontend: `cd tic-tac-toe/frontend `.
+1. Navega a la carpeta del frontend: `cd TicTacToe/frontend `.
 2. Instala los paquetes: `npm install`.
 3. Inicia la aplicación: `npm start`.
 4. Abre ` http://localhost:5173` en tu navegador.
