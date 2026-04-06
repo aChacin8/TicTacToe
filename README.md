@@ -12,23 +12,22 @@ El sistema utiliza una arquitectura **Cliente-Servidor**:
 
 ### Requisitos previos
 * .NET SDK 8.0
-* Node.js (versión 18 o superior)
+* Node.js 
 
 ### Pasos para el Backend (API)
-1. Navega a la carpeta del proyecto backend: `cd TicTacToe/GatoIA` (o el nombre de tu carpeta de C#).
+1. Navega a la carpeta del proyecto backend: `cd tic-tac-toe/TicTacToe_Api/TicTacToe_Api`.
 2. Restaura las dependencias: `dotnet restore`.
 3. Ejecuta la API: `dotnet run`.
-4. La API estará disponible usualmente en `http://localhost:5000` o `http://localhost:5173`.
+4. La API estará disponible en `http://localhost:5000` o `http://localhost:5173`.
 
 ### Pasos para el Frontend (React)
-1. Navega a la carpeta del frontend: `cd TicTacToe/frontend`.
+1. Navega a la carpeta del frontend: `cd tic-tac-toe/frontend `.
 2. Instala los paquetes: `npm install`.
 3. Inicia la aplicación: `npm start`.
-4. Abre `http://localhost:3000` en tu navegador.
+4. Abre ` http://localhost:5173` en tu navegador.
 
 ## 3. Características Clave
-* **Inicio Aleatorio:** La Máquina siempre realiza el primer movimiento en una posición azarosa.
-* **CORS:** Configurado en el `Program.cs` del backend para permitir la comunicación con el frontend.
-* **Heurística:** La Máquina evalúa el tablero en tiempo real para decidir entre atacar o defender.
-
+* **Inicio Aleatorio:** La Máquina siempre realiza el primer movimiento en una posición aleatoria, pudiendo ser al centro o en las esquinas.
+* **Heurística:** La Máquina evalúa el tablero en tiempo real para decidir entre atacar o bloquear al usuario.
+* **Probabilidades:** Se maneja un sistema de probabilidad de victoria que orienta al usuario sobre que tanto exito podría alcanzar en su siguiente jugada.
 
