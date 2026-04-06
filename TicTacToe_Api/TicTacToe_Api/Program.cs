@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: myAllowSpecificOrigins,
                       policy =>
                       {
-                          policy.WithOrigins("http://localhost:3000", "http://localhost:5173") // Puertos comunes de React/Vite
+                          policy.WithOrigins("http://localhost:3000", "http://localhost:5173") 
                                 .AllowAnyHeader()
                                 .AllowAnyMethod();
                       });
